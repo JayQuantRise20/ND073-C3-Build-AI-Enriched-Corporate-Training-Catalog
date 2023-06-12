@@ -1,0 +1,1081 @@
+1. query = search=*&$select=metadata_title,doi,publicationDate,publicationName,publisher&$top=5
+result:
+{
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "metadata_title": null,
+      "doi": null,
+      "publicationDate": null,
+      "publicationName": null,
+      "publisher": null
+    },
+    {
+      "@search.score": 1,
+      "metadata_title": null,
+      "doi": null,
+      "publicationDate": null,
+      "publicationName": null,
+      "publisher": null
+    },
+    {
+      "@search.score": 1,
+      "metadata_title": null,
+      "doi": null,
+      "publicationDate": null,
+      "publicationName": null,
+      "publisher": null
+    },
+    {
+      "@search.score": 1,
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01",
+      "publicationName": "Business Research",
+      "publisher": "Springer"
+    },
+    {
+      "@search.score": 1,
+      "metadata_title": "01-CVM0189.pdf",
+      "doi": "",
+      "publicationDate": "",
+      "publicationName": "",
+      "publisher": ""
+    }
+  ]
+}
+
+2. query : search=Springer&$select=metadata_title,metadata_creation_date,publicationName
+
+result:
+{
+    "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 4.1268,
+        "metadata_title": null,
+        "metadata_creation_date": "2015-05-19T12:42:36Z",
+        "publicationName": null
+      },
+      {
+        "@search.score": 3.9897964,
+        "metadata_title": "Privacy preservation techniques in big data analytics: a survey",
+        "metadata_creation_date": "2018-09-20T05:58:23Z",
+        "publicationName": "Journal of Big Data"
+      },
+      {
+        "@search.score": 3.7106662,
+        "metadata_title": "01-CVM0189.pdf",
+        "metadata_creation_date": "2021-04-14T08:29:06Z",
+        "publicationName": ""
+      },
+      {
+        "@search.score": 3.6543863,
+        "metadata_title": null,
+        "metadata_creation_date": "2015-05-16T18:35:45Z",
+        "publicationName": null
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+        "metadata_creation_date": "2020-11-19T15:45:16Z",
+        "publicationName": "Business Research"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+        "metadata_creation_date": "2018-11-23T11:51:48Z",
+        "publicationName": "EURASIP Journal on Image and Video Processing"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "A classification method for social information of sellers on social network",
+        "metadata_creation_date": "2021-01-12T23:22:39Z",
+        "publicationName": "EURASIP Journal on Image and Video Processing"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "QER: a new feature selection method for sentiment analysis",
+        "metadata_creation_date": "2018-04-18T08:33:56Z",
+        "publicationName": "Human-centric Computing and Information Sciences"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Mobile marketing recommendation method based on user location feedback",
+        "metadata_creation_date": "2019-04-05T10:16:31Z",
+        "publicationName": "Human-centric Computing and Information Sciences"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Multi technique amalgamation for enhanced information identification with content based image data",
+        "metadata_creation_date": "2015-11-26T05:08:05Z",
+        "publicationName": "SpringerPlus"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Sentiment analysis and the complex natural language",
+        "metadata_creation_date": "2016-02-02T06:54:52Z",
+        "publicationName": "Complex Adaptive Systems Modeling"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Toward a testbed for evaluating computational trust models: experiments and analysis",
+        "metadata_creation_date": "2015-09-04T09:59:41Z",
+        "publicationName": "Journal of Trust Management"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Mining aspects of customer’s review on the social network",
+        "metadata_creation_date": "2019-02-26T14:27:28Z",
+        "publicationName": "Journal of Big Data"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Big data stream analysis: a systematic literature review",
+        "metadata_creation_date": "2019-06-04T14:40:29Z",
+        "publicationName": "Journal of Big Data"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Context-aware rule learning from smartphone data: survey, challenges and future directions",
+        "metadata_creation_date": "2019-10-30T14:24:16Z",
+        "publicationName": "Journal of Big Data"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter",
+        "metadata_creation_date": "2020-02-24T16:27:45Z",
+        "publicationName": "Journal of Big Data"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Local regression transfer learning with applications to users’ psychological characteristics prediction",
+        "metadata_creation_date": "2015-08-12T10:56:23Z",
+        "publicationName": "Brain Informatics"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+        "metadata_creation_date": "2020-09-18T02:02:41Z",
+        "publicationName": "Brain Informatics"
+      },
+      {
+        "@search.score": 0.029852966,
+        "metadata_title": "Detecting problematic transactions in a consumer-to-consumer e-commerce network",
+        "metadata_creation_date": "2020-11-12T15:20:34Z",
+        "publicationName": "Applied Network Science"
+      }
+    ]
+  }
+
+
+
+3. query: search=*&$filter=publisher eq 'Springer'&$top=2
+
+result:
+
+{
+    "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 1,
+        "content": "\nORIGINAL RESEARCH\n\nDiscriminated by an algorithm: a systematic review\nof discrimination and fairness by algorithmic decision-\nmaking in the context of HR recruitment and HR\ndevelopment\n\nAlina Köchling1\n• Marius Claus Wehner1\n\nReceived: 15 October 2019 / Accepted: 1 November 2020 / Published online: 20 November 2020\n\n� The Author(s) 2020\n\nAbstract Algorithmic decision-making is becoming increasingly common as a new\n\nsource of advice in HR recruitment and HR development. While firms implement\n\nalgorithmic decision-making to save costs as well as increase efficiency and\n\nobjectivity, algorithmic decision-making might also lead to the unfair treatment of\n\ncertain groups of people, implicit discrimination, and perceived unfairness. Current\n\nknowledge about the threats of unfairness and (implicit) discrimination by algo-\n\nrithmic decision-making is mostly unexplored in the human resource management\n\ncontext. Our goal is to clarify the current state of research related to HR recruitment\n\nand HR development, identify research gaps, and provide crucial future research\n\ndirections. Based on a systematic review of 36 journal articles from 2014 to 2020,\n\nwe present some applications of algorithmic decision-making and evaluate the\n\npossible pitfalls in these two essential HR functions. In doing this, we inform\n\nresearchers and practitioners, offer important theoretical and practical implications,\n\nand suggest fruitful avenues for future research.\n\nKeywords Fairness � Discrimination � Perceived fairness � Ethics �\nAlgorithmic decision-making in HRM � Literature review\n\n1 Introduction\n\nAlgorithmic decision-making in human resource management (HRM) is becoming\n\nincreasingly common as a new source of information and advice, and it will gain\n\nmore importance due to the rapid growth of digitalization in organizations.\n\n& Alina Köchling\n\nalina.koechling@hhu.de\n\n1 Faculty of Business Administration and Economics, Heinrich-Heine-University Düsseldorf,\n\nUniversitätsstrasse 1, 40225 Dusseldorf, Germany\n\n123\n\nBusiness Research (2020) 13:795–848\n\nhttps://doi.org/10.1007/s40685-020-00134-w\n\nhttp://orcid.org/0000-0001-7039-9852\nhttp://orcid.org/0000-0002-1932-3155\nhttp://crossmark.crossref.org/dialog/?doi=10.1007/s40685-020-00134-w&amp;domain=pdf\nhttps://doi.org/10.1007/s40685-020-00134-w\n\n\nAlgorithmic decision-making is defined as automated decision-making and remote\n\ncontrol, as well as standardization of routinized workplace decisions (Möhlmann\n\nand Zalmanson 2017). Algorithms, instead of humans, make decisions, and this has\n\nimportant individual and societal implications in organizational optimization\n\n(Chalfin et al. 2016; Lee 2018; Lindebaum et al. 2019). These changes in favor\n\nof algorithmic decision-making make it easier to discover hidden talented\n\nemployees in organizations and review a large number of applications automatically\n\n(Silverman and Waller 2015; Carey and Smith 2016; Savage and Bales 2017). In a\n\nsurvey of 200 artificial intelligence (AI) specialists from German companies, 79%\n\nstated that AI is irreplaceable for competitive advantages (Deloitte 2020). Several\n\ncommercial providers, such as Google, IBM, SAP, and Microsoft, already offer\n\nalgorithmic platforms and systems that facilitate current human resource (HR)\n\npractices, such as hiring and performance measurements (Walker 2012). In turn,\n\nwell-known and large companies, such as Vodafone, Intel, Unilever, and Ikea, apply\n\nalgorithmic decision-making in HR recruitment and HR development (Daugherty\n\nand Wilson 2018; Precire 2020).\n\nThe major driving forces for algorithmic decision-making are savings in both\n\ncosts and time, minimizing risks, enhancing productivity, and increasing certainty in\n\ndecision-making (Suen et al. 2019; McDonald et al. 2017; McColl and Michelotti\n\n2019; Woods et al. 2020). Besides these economic reasons, firms seek to diminish\n\nthe human biases (e.g., prejudices and personal beliefs) by applying algorithmic\n\ndecision-making, thereby increasing the objectivity, consistency, and fairness of the\n\nHR recruitment as well as HR development processes (Langer et al. 2019;\n\nFlorentine 2016; Raghavan et al. 2020). For example, Deloitte argues that the\n\nalgorithmic decision-making system always manages each application with the\n\nsame attention according to the same requirements and criteria (Deloitte 2018). At\n\nfirst glance, algorithmic decision-making seems to be more objective and fairer than\n\nhuman decision-making (Lepri et al. 2018).\n\nHowever, there is a possible threat of discrimination and unfairness by relying\n\nsolely on algorithmic decision-making (e.g., (Lee 2018; Lindebaum et al. 2019;\n\nSimbeck 2019)). In general, discrimination is defined as the unequal treatment of\n\ndifferent groups based on gender, age, or ethnicity instead of on qualitative\n\ndifferences, such as individual performance (Arrow 1973). Algorithms produce\n\ndiscrimination or biased outcomes if they are trained on inaccurate (Kim 2016),\n\nbiased (Barocas and Selbst 2016), or unrepresentative input data (Suresh and Guttag\n\n2019). Consequently, algorithms are vulnerable to produce or replicate biased\n\ndecisions if their input (or training) data are biased (Chander 2016).\n\nComplicating this issue, biases and discrimination are often only recognized after\n\nalgorithms have made a decision. As a prominent example stemming from the\n\ncurrent debate around transparency, bias, and fairness in algorithmic decision-\n\nmaking (Dwork et al. 2012; Lepri et al. 2018; Diakopoulos 2015), the hiring\n\nalgorithms applied by the American e-commerce specialist Amazon yielded an\n\nextreme disadvantage of female applicants, which finally led Amazon to shut down\n\nthe complete algorithmic decision-making for their hiring decision (Dastin 2018;\n\nMiller 2015). Thus, the lack of transparency and accountability of the input data, the\n\nalgorithm itself, and the factors influencing algorithmic outcomes are potential\n\n796 Business Research (2020) 13:795–848\n\n123\n\n\n\nissues associated with algorithmic decision-making (Citron and Pasquale 2014;\n\nPasquale 2015). Another question remains whether applicants and/or employees\n\nperceive the algorithmic decision-making to be fair. Previous studies showed that\n\napplicants’ and employees’ acceptance of algorithmic decision-making is lower in\n\nHR recruitment and HR development compared to common procedures conducted\n\nby humans (Kaibel et al. 2019; Langer et al. 2019; Lee 2018).\n\nConsequently, there is a discrepancy between the enthusiasm about algorithmic\n\ndecision-making as a panacea for inefficiencies and labor shortages on one hand and\n\nthe threat of discrimination and unfairness of algorithmic decision-making on the\n\nother side. While the literature in the field of computer science has already\n\naddressed the issues of biases, knowledge about the potential downsides of\n\nalgorithmic decision-making is still in its infancy in the field of HRM despite its\n\nimportance due to increased digitization and automation in HRM. This heteroge-\n\nneous state of research on discrimination and fairness raises distinct challenges for\n\nfuture research. From a practical point of view, it is problematic if large and well-\n\nknown companies implement algorithms without being aware of the possible pitfalls\n\nand negative consequences. Thus, to move the field forward, it is paramount to\n\nsystematically review and synthesize existing knowledge about biases and\n\ndiscrimination in algorithmic decision-making and to offer new research avenues.\n\nThe aim of this study is threefold. First, this review creates an awareness of\n\npotential biases and discrimination resulting from algorithmic decision-making in\n\nthe context of HR recruitment and HR development. Second, this study contributes\n\nto the current literature by informing both researchers and practitioners about the\n\npotential dangers of algorithmic decision-making in the HRM context. Finally, we\n\nguide future research directions with an understanding of existing knowledge and\n\ngaps in the literature. To this end, the present paper conducts a systematic review of\n\nthe current literature with a focus on HR recruitment and HR development. These\n\ntwo HR functions deal with the potential of future and current employees and the\n\n(automatic) prediction of person-organization fit, career development, and future\n\nperformance (Huselid 1995; Walker 2012). Decisions made by algorithms and AI in\n\nthese two important HR areas have serious consequences for individuals, the\n\ncompany, and society concerning ethics and both procedural and distributive\n\nfairness (Ötting and Maier 2018; Lee 2018; Tambe et al. 2019; Cappelli et al. 2020).\n\nOur study contributes to the existing body of research in several ways. First, the\n\nsystematic literature review contributes to the literature by highlighting the current\n\ndebate on ethical issues associated with algorithmic decision-making, including bias\n\nand discrimination (Barocas and Selbst 2016). Second, our research provides\n\nillustrative examples of various algorithmic decision-making tools used in HR\n\nrecruitment, HR development, and their potential for discrimination and perceived\n\nfairness. Moreover, our systematic review underlines the fact that it is a timely topic\n\ngaining enormous importance. Companies will face legal and reputational risk if\n\ntheir HR recruitment and HR development methods turn out to be discriminatory,\n\nand applicants and employees may consider the algorithmic selection or develop-\n\nment process to be unfair.\n\nFor this reason, companies need to know that the use of algorithmic decision-\n\nmaking can yield to discrimination, unfairness, and dissatisfaction in the context of\n\nBusiness Research (2020) 13:795–848 797\n\n123\n\n\n\nHRM. We offer an understanding of how discrimination might arise when\n\nimplementing algorithmic decision-making. We try to give guidance on how\n\ndiscrimination and perceived unfairness could be avoided and provide detailed\n\ndirections for future research in the existing literature, especially in the HRM field.\n\nMoreover, we identify several research gaps, mainly a lacking focus on perceived\n\nfairness.\n\nThe paper is organized as follows: first, we give an understanding of key terms\n\nand definitions. Afterward, we present the methodology of our systematic literature\n\nreview accompanied by a descriptive analysis of the reviewed literature. This is\n\nfollowed by an illustration of the current state of knowledge on algorithmic\n\ndecision-making and subsequent discussion. Finally, we offer practical as well as\n\ntheoretical implications and outline future research avenues.\n\n2 Conceptual background and definitions\n\n2.1 Definition of algorithms\n\nThe Oxford Living Dictionary defines algorithms as ‘‘processes or sets of rules to be\n\nfollowed in calculations or other problem-solving operations, especially by a\n\ncomputer.’’ Möhlmann and Zalmanson (2017) refer to algorithmic decision-making\n\nas automated decision-making and remote control, and standardization of routinized\n\nworkplace decision. Thus, in this paper, we use the term algorithmic decision-\n\nmaking to describe a computational mechanism that autonomously makes decisions\n\nbased on rules and statistical models without explicit human interference (Lee\n\n2018). Algorithms are the basis for several AI decision tools.\n\nAI is an umbrella term for a wide array of models, methods, and prescriptions\n\nused to simulate human intelligence, often when it comes to collecting, processing,\n\nand acting on data. AI applications can apply rules, learn over time through the\n\nacquisition of new data and information, and adapt to changes in the environment\n\n(Russell and Norvig 2016). AI includes several different research areas, such as\n\nmachine learning (ML), speech and image recognition, and natural language\n\nprocessing (NLP) (Kaplan and Haenlein 2019; Paschen et al. 2020).\n\nAs mentioned, the basis for many AI decision-making tools used in HR are ML\n\nalgorithms, which can be categorized into three major types: supervised, unsuper-\n\nvised, and reinforcement learning (Lee and Shin 2020). Supervised ML algorithms\n\naim to make predictions (often divided into classification- or regression-type\n\nproblems), given the input data and desired outputs considered as the ground truth.\n\nHuman experts often provide these labels and thus provide the algorithm with the\n\nground truth. To replicate human decisions or to make predictions, the algorithm\n\nlearns patterns from the labeled data and develops rules, which can be applied for\n\nfuture instances for the same problem (Canhoto and Clear 2020). In contrast, in\n\nunsupervised ML, only input data are given, and the model learns patterns from the\n\ndata without a priori labeling (Murphy 2012). Unsupervised ML algorithms capture\n\nthe structural behaviors of variables in the input data for theme analysis or grouping\n\n798 Business Research (2020) 13:795–848\n\n123\n\n\n\ndata (Canhoto and Clear 2020). Finally, reinforcement learning, as a separate group\n\nof methods, is not based on fixed input/output data. Instead, the ML algorithm learns\n\nbehavior through trial-and-error interactions with a dynamic environment (Kael-\n\nbling et al. 1996).\n\nFurthermore, instead of grouping ML models as supervised, unsupervised, or\n\nreinforcement type learning, the methodologies of algorithms may also be used to\n\ncategorize ML models. Examples are probabilistic models, which may be used in\n\nsupervised or unsupervised settings (Murphy 2012), or deep learning models (Lee\n\nand Shin 2020), which rely on artificial neural networks and perform complex\n\nlearning tasks. In supervised settings, neural network models often determine the\n\nrelationship between input and output using network structures containing the so-\n\ncalled hidden layers, meaning phases of transformation of the input data. Single\n\nnodes of these layers (neurons) were first modeled after neurons in the human brain,\n\nand they resemble human thinking (Bengio et al. 2017). In other settings, deep\n\nlearning may be used, for instance, to (1) process information through multiple\n\nstages of nonlinear transformation; or (2) determine features, representations of the\n\ndata providing an advantage for, e.g., prediction tasks (Deng and Yu 2014).\n\n2.2 Reason for biases\n\nFor any estimation bY of a random variable Y , bias refers to the difference between\n\nthe expected values of bY and Y and is also referred to as systematic error\n\n(Kauermann and Kuechenhoff 2010; Goodfellow et al. 2016). Cognitive biases,\n\nspecifically, are systematic errors in human judgment when dealing with uncertainty\n\n(Kahneman et al. 1982). These cognitive biases are thought to be transferred to\n\nalgorithmic evaluations or predictions, where bias may refer to ‘‘computer systems\n\nthat systematically and unfairly discriminate against certain individuals or groups in\n\nfavor of others’’ (Friedman and Nissenbaum 1996, p. 332).\n\nAlgorithms are often characterized as ‘‘black box’’. In the context of HRM,\n\nCheng and Hackett (2019) characterize algorithms as ‘‘glass boxes’’, since some,\n\nbut not all, components of the theory are reflective. In this context, the consideration\n\nand distinction of the three core elements are necessary, namely, transparency,\n\ninterpretability, and explainability (Roscher et al. 2020). Transparency is concerned\n\nwith the ML approach, while interpretability is concerned with the ML model in\n\ncombination with the data, which means the making sense of the obtained ML\n\nmodel (Roscher et al. 2020). Finally, explainability comprises the model, the data,\n\nand human involvement (Roscher et al. 2020). Concerning the former, transparency\n\ncan be distinguished at three different levels: ‘‘[…] at the level of the entire model\n\n(simulatability), at the level of individual components, such as parameters\n\n(decomposability), and at the level of the training (algorithmic transparency)’’\n\n(Roscher et al. 2020, p. 4). Interpretability concerns the characteristics of an ML\n\nmodel that need to be understood by a human (Roscher et al. 2020). Finally, the\n\nelement of explainability is paramount in HRM. Contextual information of human\n\nand their knowledge from the domain of HRM are necessary to explain the different\n\nsets of interpretations and derive conclusions about the results of the algorithms\n\nBusiness Research (2020) 13:795–848 799\n\n123\n\n\n\n(Roscher et al. 2020). Especially in HRM, in which ML algorithms are increasingly\n\nused for prediction of variables of interest to the HR department (e.g., personality\n\ncharacteristics, employee satisfaction, and turnover intentions), it is essential to\n\nunderstand how the ML algorithm operates (e.g., how the ML algorithm uses data\n\nand weighs specific criteria) and the underlying reasons for the produced decision.\n\nIn the following, we will outline the main reasons for biases in algorithmic\n\ndecision-making and briefly summarize different biases, namely historical, repre-\n\nsentation, technical, and emergent bias. One of the main reasons for bias in\n\nalgorithmic decision-making is the quality of input data, because algorithms learn\n\nfrom historical data as an example; thus, the learning process depends on the\n\nexposed examples (Friedman and Nissenbaum 1996; Barocas and Selbst 2016;\n\nDanks and London 2017). The input data are usually historical. Consequently, if the\n\ninput data set is biased in one way or another, the subsequent analysis is biased, as\n\nwell (keyword: ‘‘garbage in, garbage out’’). For example, if the input data of an\n\nalgorithm include implicit or explicit human judgments, stereotypes, or biases, an\n\naccurate algorithmic output will inevitably entail these human judgments, stereo-\n\ntypes, and prejudices (Diakopoulos 2015; Suresh and Guttag 2019; Barfield and\n\nPagallo 2018). This bias usually exists before the creation of the system and may not\n\nbe apparent at first glance. In turn, the algorithm replicates these preexisting biases,\n\nbecause it treats all information, in which a certain kind of discrimination or bias is\n\nembedded, as a valid example (Barocas and Selbst 2016; Lindebaum et al. 2019). In\n\nthe worst case, the algorithm can yield racist or discriminatory outputs (Veale and\n\nBinns 2017). Algorithms exhibit these tendencies, even if it is not the intention of\n\nthe manual programming since they compound the historical biases of the past.\n\nThus, any predictive algorithmic decision-making tool built on historical data may\n\ninherit historical biases (Datta et al. 2015).\n\nAs an example from the recruitment process, if an algorithm is trained on\n\nhistorical employment data, integrating an implicit bias that favors white men over\n\nHispanics, then, without even being fed data on gender or ethnicity, an algorithm\n\nmay recognize patterns in the data, which expose an applicant as a member of a\n\ncertain protected group, which, historically, is less likely to be chosen for a job\n\ninterview. This, in turn, may lead to a systematic disadvantage of certain groups,\n\neven if the designer has no intention of marginalizing people based on these\n\ncategories and if the algorithm is not directly given this information (Barocas and\n\nSelbst 2016).\n\nAnother reason for biases in algorithms related to the input data is that certain\n\ngroups or characteristics are mostly underrepresented or sometimes overrepre-\n\nsented, which is also called representation bias (Barocas and Selbst 2016; Suresh\n\nand Guttag 2019; Barfield and Pagallo 2018). Any decision based on this kind of\n\nbiased data might lead to disadvantages of groups of individuals who are\n\nunderrepresented or overrepresented (Barocas and Selbst 2016). Another reason\n\nfor representation bias can be the absence of specific information (Barfield and\n\nPagallo 2018). Thus, not only the selection of measurements but also the\n\npreprocessing of the measurement data might yield to bias. ML models often\n\nevolve in several steps of feature engineering or model testing, since there is no\n\nuniversally best model (as shown in the ‘‘no free lunch’’ theorems, [see Wolpert and\n\n800 Business Research (2020) 13:795–848\n\n123\n\n\n\nMacready (1997)]. Here, the choice of the benchmark or rather the value indicating\n\nthe performance of the model is optimized through rotations of different\n\nrepresentations of the data and methods for prediction. For example, representative\n\nbias might occur if females in comparison to males are underrepresented in the\n\ntraining data of an algorithm. Hence, the outcome could be in favor of the\n\noverrepresented group (i.e., males) and, hence, lead to discriminatory outcomes.\n\nTechnical bias may arise from technical constraints or technical consideration for\n\nseveral reasons. For example, technical bias can originate from limited ‘‘[…]\n\ncomputer technology, including hardware, software, and peripherals’’ (Friedman\n\nand Nissenbaum 1996, p. 334). Another reason could be a decontextualized\n\nalgorithm that does not manage to treat all groups fairly under all important\n\nconditions (Friedman and Nissenbaum 1996; Bozdag 2013). The formalization of\n\nhuman constructs to computers can be another problem leading to technical bias.\n\nHuman constructs, such as judgments or intuitions, are often hard to quantify, which\n\nmakes it difficult or even impossible to translate them to the computer (Friedman\n\nand Nissenbaum 1996). As an example, the human interpretation of law can be\n\nambiguous and highly dependent on the specific context, making it difficult for an\n\nalgorithmic system to correctly advise in litigation (c.f., Friedman and Nissenbaum\n\n1996).\n\nIn the context of real users, emergent bias may arise. Typically, this bias occurs\n\nafter the construction as a result of changed societal knowledge, population, or\n\ncultural values (Friedman and Nissenbaum 1996). Consequently, a shift in the\n\ncontext of use might yield to problems and an emergent bias due to two reasons,\n\nnamely ‘‘new societal knowledge’’ and ‘‘mismatch between users and system\n\ndesign’’ (see Table 1 in Friedman and Nissenbaum 1996, p. 335). If it is not possible\n\nto incorporate new knowledge in society into the system design, emergent bias due\n\nto new societal knowledge occurs. The mismatch between users and system design\n\ncan occur due to changes in state-of-the-art-research or due to different values. Also,\n\nemergent bias can occur if a population uses the system with different values than\n\nthose assumed in the design process (Friedman and Nissenbaum 1996). Problems\n\noccur, for example, when users originate from a cultural context that avoids\n\ncompetition and promotes cooperative efforts, while the algorithm is trained to\n\nreward individualistic and competitive behavior (Friedman and Nissenbaum 1996).\n\n2.3 Fairness and discrimination in information systems\n\nLeventhal (1980) describes fairness as equal treatment based on people’s\n\nperformance and needs. Table 1 offers an overview of the different fairness\n\ndefinitions. Individual fairness means that, independent of group membership, two\n\nindividuals who are perceived to be similar by the measures at hand should also be\n\ntreated similarly (Dwork et al. 2012). Rising from the micro-level onto the meso-\n\nlevel, Dwork et al. (2012) also proposed another measure of fairness, that is, group\n\nfairness, in which entire (protected) groups of people are required to be treated\n\nsimilarly (statistical parity). Hardt et al. (2016) extended these notions by including\n\ntrue outcomes of predicted variables to achieve fair treatment. In their sense, false-\n\nBusiness Research (2020) 13:795–848 801\n\n123\n\n\n\npositives/negatives are sources of disadvantage and should be equal among groups\n\nmeans equal opportunity for false-positives/negatives (Hardt et al. 2016).\n\nUnfair treatment of certain groups of people or individual subjects yields to\n\ndiscrimination. Discrimination is defined as the unequal treatment of different\n\ngroups (Arrow 1973). Discrimination is very similar to unfairness. Discriminatory\n\ncategories can be strongly correlated with non-discriminatory categories, such as\n\nage (i.e., discriminatory) and years of working experience (non-discriminatory)\n\n(Persson 2016). Also, there is a difference between implicit and explicit\n\ndiscrimination. Implicit discrimination is based on implicit attitudes or stereotypes\n\nand often unintentional (Bertrand et al. 2005). In contrast, explicit discrimination is\n\na conscious process due to an aversion to certain groups of people. In HR\n\nrecruitment and HR development, discrimination means the not-hiring or support of\n\na person due to characteristics not related to that person’s productivity in the current\n\nposition (Frijters 1998).\n\nThe HR literature, especially the literature on personnel selection, is concerned\n\nwith fairness in hiring decisions, because every selection measure of individual\n\ndifferences is inevitably discriminatory (Cascio and Aguinis 2013). However, the\n\nquestion arises ‘‘whether the measure discriminates unfairly’’ (Cascio and Aguinis\n\n2013, p. 183). Hence, the actual fairness of prediction systems needs to be tested\n\nbased on probabilities and estimates, which we refer to as objective fairness. In the\n\nselection context, the literature distinguishes between differential validity (i.e.,\n\ndifferences in subgroup validity) and differential prediction (i.e., differences in\n\nslopes and intercepts of subgroups), and both might lead to biased results (Meade\n\nand Fetzer 2009; Roth et al. 2017; Bobko and Bartlett 1978).\n\nIn HR recruitment and HR development, both objective fairness and subjective\n\nfairness perceptions of applicants and employees about the usage of algorithmic\n\ndecision-making need to be considered. In this regard, perceived fairness or justice\n\nis more a subjective and descriptive personal evaluation rather than an objective\n\nreality (Cropanzano et al. 2007). Subjective fairness plays an essential role in the\n\nrelationship between humans and their employers. Previous studies showed that the\n\nTable 1 Definitions of fairness\n\nName Author Definition\n\nIndividual\n\nfairness\n\nDwork et al.\n\n(2012)\n\n‘‘Similar’’ subjects should have ‘‘similar’’ classifications\n\nGroup\n\nfairness\n\nSubjects in protected and unprotected groups have an equal probability\n\nof being assigned positive\n\nP bY ¼ 1\n� �\n\n�\n\n�G ¼ 1Þ ¼ Pð bY ¼ 1jG ¼ 0Þ\n\nEqual\n\nopportunity\n\nHardt et al.\n\n(2016)\n\nFalse-negative rates should be equal\n\nP bY ¼ 0\n� �\n\n�\n\n�Y ¼ 1;G ¼ 1Þ ¼ Pð bY ¼ 0jY ¼ 1;G ¼ 0Þ\n\nY 2 0; 1f g is a random variable describing, e.g., the recidivism of a subject, bY its estimator and G 2\nf0; 1g; describes whether a subject is a member of a certain protected group (G ¼ 1Þ or not ðG ¼ 0Þ\n\n802 Business Research (2020) 13:795–848\n\n123\n\n\n\nlikelihood of conscientious behavior and altruisms is higher for employees who feel\n\ntreated fairly (Cohen-Charash and Spector 2001). Conversely, unfairness can have\n\nconsiderable adverse consequences. For example, in the recruitment context,\n\nfairness perceptions of candidates during the selection process have important\n\nconsequences for decision to stay in the applicant pool or accept a job offer (Bauer\n\net al. 2001). Therefore, it is crucial to know how people feel about algorithmic\n\ndecision-making taking over managerial decisions formerly made by humans, since\n\nthe fairness perceptions during the recruitment process and/or training process have\n\nessential and meaningful effects on attitudes, performance, morale, intentions, and\n\nbehavior (e.g., the acceptance or rejection of a job offer or job turnover, job\n\ndissatisfaction, and reduction or elimination of conflicts) (Gilliland 1993; McCarthy\n\net al. 2017; Hausknecht et al. 2004; Cropanzano et al. 2007; Cohen-Charash and\n\nSpector 2001). Moreover, negative experiences might damage the employer�s\nimage. Several online platforms offer the possibility of rating companies and their\n\nrecruitment and development process (Van Hoye 2013; Woods et al. 2020).\n\nConsidering justice and fairness in the organizational context (Gilliland 1993),\n\nthere are three core dimensions of justice: distributive, procedural, and interactional.\n\nThe three dimensions tend to be correlated. Distributive justice deals with the\n\noutcome that some humans receive and some do not (Cropanzano et al. 2007). Rules\n\nthat can lead to distributive justice are ‘‘[…] equality (to each the same), equity (to\n\neach in accordance with contributions, and need (to each in accordance with the\n\nmost urgency)’’ (Cropanzano et al. 2007, p. 37). To some extent, especially\n\nconcerning equity, this can be connected with individual fairness and group fairness\n\nfrom Dwork et al. (2012) and equal opportunities from Hardt et al. (2016).\n\nProcedural justice means that the process is consistent with all humans, not\n\nincluding bias, accurate, and consistent with the ethical norms (Cropanzano et al.\n\n2007; Leventhal 1980). Consistency plays an essential role in procedural justice,\n\nmeaning that all employees and all candidates need to receive the same treatment.\n\nAdditionally, the lack of bias, accuracy, representation of all parties, correction, and\n\nethics play an important role in achieving a high procedural justice (Cropanzano\n\net al. 2007). In contrast, interactional justice is about the treatment of humans,\n\nmeaning the appropriateness of the treatment from another member of the company,\n\nthe treatment with dignity, courtesy, and respect, and informational justice (share of\n\nrelevant information) (Cropanzano et al. 2007).\n\nIn general, algorithmic decision-making increases the standardization of\n\nprocedures, so that decisions should be more objective and less biased, and errors\n\nshould occur less frequently (Kaibel et al. 2019), since information processing by\n\nhuman raters can be unsystematic, leading to contradictory and insufficient\n\nevidence-based decisions (Woods et al. 2020). Consequently, procedural justice and\n\ndistributive justice are higher using algorithmic decision-making, because the\n\nprocess is more standardized, which still not means that it is without bias.\n\nHowever, especially in the context of an application or an employee evaluation, it\n\nis not only about how fair the procedure itself is (according to fairness measures),\n\nbut it is also about how people involved in the decision process perceive the fairness\n\nof the whole process. Often the personal contact, which characterizes the\n\nBusiness Research (2020) 13:795–848 803\n\n123\n\n\n\ninteractional fairness, is missing when using algorithmic decision-making. It is\n\ndifficult to fulfill all three fairness dimensions.\n\n3 Methods\n\nThis systematic literature review aims at offering a coherent, transparent, and\n\nreliable picture of existing knowledge and providing insights into fruitful research\n\navenues about the discrimination potential and fairness when using algorithmic\n\ndecision-making in HR recruitment and HR development. This is in line with other\n\nsystematic literature reviews that organize, evaluate, and synthesize knowledge in a\n\nparticular field and provide an overall picture of knowledge and suggestions for\n\nfuture research (Petticrew and Roberts 2008; Crossan and Apaydin 2010; Siddaway\n\net al. 2019). To this end, we followed the systematic literature review approach\n\ndescribed by Siddaway et al. (2019) and Gough et al. (2017) to ensure a methodical,\n\ntransparent, and replicable approach.1\n\n3.1 Search terms and databases\n\nWe engaged in an extensive keyword searching, which we derived in an iterative\n\nprocess of search and discussion between the two authors of this study (see\n\n‘‘Appendix’’ for the employed keywords). According to our research question, we\n\nfirst defined individual concepts to create search terms. We considered different\n\nterminology, including synonyms, singular/plural forms, different spellings, broader\n\nvs. narrow terms, and classification terms of databases to categorize contents\n\n(Siddaway et al. 2019) (see Table 2 for a complete list of employed keywords and\n\nsearch strings). Our priority was to achieve the balance between sensitivity and\n\nspecificity to get broad coverage of the literature and to avoid the unintentional\n\nomission of relevant articles (Siddaway et al. 2019).\n\nAs the first source of data, we used the social science citation index (SSCI) to\n\nensure broad coverage of scholarly literature. This database covers English-\n\nlanguage peer-reviewed journals in business and management. As part of the Web\n\nof Knowledge, the database includes all journals with an impact factor, which is a\n\nreasonable proxy for the most important publications in the field. We completed our\n\nsearch with the EBSCO Business Source Premier database to add further breadth.\n\nSince electronic databases are not fully comprehensive, we additionally searched in\n\nthe reference section of the considered papers and manually searched for articles\n\n(Siddaway et ",
+        "metadata_storage_content_type": "application/pdf",
+        "metadata_storage_size": 593265,
+        "metadata_storage_last_modified": "2023-06-09T23:30:14Z",
+        "metadata_storage_content_md5": "uaEkbE16Dgf4FbaxSaZFhA==",
+        "metadata_storage_name": "Köchling-Wehner2020_Article_DiscriminatedByAnAlgorithmASys.pdf",
+        "metadata_storage_path": "aHR0cHM6Ly90cmFpbmluZ3N0b3JhZ2UxOS5ibG9iLmNvcmUud2luZG93cy5uZXQvcGFwZXJzL0slQzMlQjZjaGxpbmctV2VobmVyMjAyMF9BcnRpY2xlX0Rpc2NyaW1pbmF0ZWRCeUFuQWxnb3JpdGhtQVN5cy5wZGY1",
+        "metadata_storage_file_extension": ".pdf",
+        "metadata_content_type": "application/pdf",
+        "metadata_language": "en",
+        "metadata_author": "Alina Köchling ",
+        "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+        "metadata_creation_date": "2020-11-19T15:45:16Z",
+        "organizations": [
+          "Heinrich-Heine-University Düsseldorf",
+          "Deloitte",
+          "Google",
+          "IBM",
+          "SAP",
+          "Microsoft",
+          "Walker",
+          "Vodafone",
+          "Intel",
+          "Unilever",
+          "Ikea",
+          "Arrow",
+          "Amazon",
+          "HRM",
+          "Canhoto",
+          "Clear",
+          "HR",
+          "ML",
+          "Bozdag",
+          "EBSCO"
+        ],
+        "profile": "[]",
+        "doi": "10.1007/s40685-020-00134-w",
+        "publicationDate": "2020-11-01",
+        "publicationName": "Business Research",
+        "publisher": "Springer"
+      },
+      {
+        "@search.score": 1,
+        "content": "\nRESEARCH Open Access\n\nAugmented reality virtual glasses try-on\ntechnology based on iOS platform\nBoping Zhang\n\nAbstract\n\nWith the development of e-commerce, network virtual try-on, as a new online shopping mode, fills the gap that\nthe goods cannot be tried on in traditional online shopping. In the work, we discussed augmented reality virtual\nglasses try-on technology on iOS platform to achieve optimal purchase of online glasses, improving try-on speed of\nvirtual glasses, user senses of reality, and immersion. Face information was collected by the input device-monocular\ncamera. After face detection by SVM classifier, the local face features were extracted by robust SIFT. Combined with\nSDM, the feature points were iteratively solved to obtain more accurate feature point alignment model. Through\nthe head pose estimation, the virtual model was accurately superimposed on the human face, thus realizing the\ntry-on of virtual glasses. The above research was applied in iOS glasses try-on APP system to design the try-on system\nof augmented reality virtual glasses on iOS mobile platform. It is proved that the method can achieve accurate\nidentification of face features and quick try-on of virtual glasses.\n\nKeywords: Virtual try-on, Virtual glasses, Augmented reality, Computer vision, Pose estimation, iOS\n\n1 Introduction\nNetwork virtual try-on is a new way of online shopping.\nWith the development of e-commerce, it broadens the\nexternal propaganda channels of merchants to enhance\nthe interaction between consumers and merchants.\nVirtual try-on fills the gap that the goods cannot be\ntried on in traditional online shopping. As an important\npart of network virtual try-on, virtual glasses try-on\ntechnology has become a key research issue in this field\nrecently [1–4]. During virtual glasses try-on process,\nconsumers can select their favorite glasses by compar-\ning the actual wearing effects of different glasses in the\nonline shopping. The research key of virtual glasses\ntry-on system is the rapid achievement of experiential\nonline shopping.\nAR (augmented reality) calculates the position and\n\nangle of camera image in real time while adding corre-\nsponding images. The virtual world scene is superim-\nposed on a screen in real world for real-time\ninteraction [5]. Using computer technology, AR simu-\nlates physical information (vision, sound, taste, touch,\netc.) that is difficult to experience within certain time\n\nand space of real world. After superimposition of phys-\nical information, the virtual information is perceived by\nhuman senses in real world, thus achieving sensory ex-\nperience beyond reality [6].\nBased on AR principle, virtual glasses try-on technol-\n\nogy achieves optimal purchase of user online glasses and\nquick try-on of virtual glasses, improving the senses of\nreality and immersion. Monocular camera is used as the\ninput device to discuss try-on technology of AR glasses\non iOS platform. Face information is collected by mon-\nocular camera. After face detection by SVM (support\nvector machine) classifier, the local features of faces are\nextracted by robust SIFT (scale-invariant feature trans-\nform). Combined with SDM (supervised descent\nmethod), the feature points were iteratively solved to ob-\ntain more accurate feature point alignment model.\nThrough the head pose estimation, the virtual glasses\nmodel was accurately superimposed on the human face,\nthus realizing the try-on of virtual glasses. The above re-\nsearch is applied in iOS glasses try-on APP system to de-\nsign the try-on system of AR glasses on iOS mobile\nplatform. It is proved that the method can achieve ac-\ncurate identification of face features and quick try-on of\nvirtual glasses.Correspondence: bopingzhang@yeah.net\n\nSchool of Information Engineer, Xuchang University, Xuchang 461000,\nHenan, China\n\nEURASIP Journal on Image\nand Video Processing\n\n© The Author(s). 2018 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0\nInternational License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and\nreproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to\nthe Creative Commons license, and indicate if changes were made.\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 \nhttps://doi.org/10.1186/s13640-018-0373-8\n\nhttp://crossmark.crossref.org/dialog/?doi=10.1186/s13640-018-0373-8&domain=pdf\nhttp://orcid.org/0000-0001-7835-7622\nmailto:bopingzhang@yeah.net\nhttp://creativecommons.org/licenses/by/4.0/\n\n\n2 Research status of network virtual try-on\ntechnology\nGlasses try-on system was first applied in the USA.\nGlasses companies such as Camirror, Smart Look, Ipoint\nKisok, and Xview pioneered the online try-on function [7].\nUsers freely feel the wearing effect, enhancing the online\nshopping experience. Recently, online try-on function is\nexplored by domestic and foreign glasses sellers, such as\nMeijing [8], Kede [9] and Biyao [10].\nVirtual glasses try-on system involves computer vision,\n\naugmented reality, and image processing technology.\nRecently, research hotspots are speed, experience, and\nimmersion of try-on. At present, research results can be di-\nvided into four categories, namely 2D image superposition,\n3D glasses superimposed on 2D face images, 3D face mod-\neling, and AR technology based on video stream [11–14].\nHuang [15] introduced virtual optician system based on\n\nvision, which detects user’s face before locating user’s eyes.\nThree points are selected from face and glasses images.\nTwo corresponding isosceles triangles are formed for af-\nfine transformation, thus estimating the pose and scale of\nface in real time. This method realizes real-time head mo-\ntion tracking. However, the glasses model easily produces\nunrealistic deformation, affecting the realism of the\nglasses.\nAR technology is also applied in the virtual glasses\n\ntry-on system. Cheng et al. [16] selected a monocular\nCCD (charge-coupled device) camera as the input sensor\nto propose AR technology design based on the inter-\naction of marker and face features. Virtual glasses try-on\nsystem is established based on Android mobile platform,\nachieving good results. During virtual try-on process, we\nuse 2D image overlay or 3D modeling approach. There\nare still different defects although all kinds of virtual\nglasses try-on techniques have certain advantages. The\nsuperposition of 2D images is unsatisfactory in the sense\nof reality. Besides, the 3D modeling takes too long to\nmeet the real-time requirements of online shopping.\n\nIn-depth research is required to realize accurate tracking\nand matching. These problems can be solved by\nAR-based glasses try-on technology to a large extent,\nthus providing new ideas for virtual try-on technology.\n\n3 Methods of face recognition\nIt is necessary to integrate virtual objects into real envir-\nonment for the application of AR technology in virtual\nglasses try-on system, wherein face recognition is the\nprecondition for virtual glasses try-on system. During\ntry-on process, it is necessary to detect the face in each\nframe of the video. However, the problems of posture, il-\nlumination, and occlusion can increase the omission and\nfalse ratios of face detection. The real time of detection\nis an important indicator of system performance to en-\nhance people’s experience senses.\nGeneral face recognition process consists of face de-\n\ntection, tracking, feature extraction, dimension reduc-\ntion, and matching recognition (see Fig. 1) [17].\nIn Fig. 1, face detection is the first step to realize face\n\nrecognition. Its purpose is to automatically find face re-\ngion in an input image. If there is a face area, the spe-\ncific location and range of face needs to be located. Face\ndetection is divided into image-based and video-based\ndetection. If the input is a still image, each image is de-\ntected; if the input is a video, face detection is performed\nthroughout the video sequence.\nFeature extraction is based on face detection, and the\n\ninput is the detected face image. Common features are\nLBP (local binary patterns), HOG (histogram of oriented\ngradient), Gabor, etc. HOG [18] describes the edge fea-\ntures. Due to insensitiveness to illumination changes and\nsmall displacements, it describes the overall and local in-\nformation of human face. LBP [19] shows the local tex-\nture changes of an image, with brightness invariance.\nGabo feature [20] captures the local structural content\nof spatial position, direction selectivity, and spatial fre-\nquency. It is suitable for description of human faces.\n\nFig. 1 Face recognition process\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 2 of 19\n\n\n\nFeature dimension reduction is described as follows.\nFace feature is generally high-dimensional feature vector.\nFace recognition of high-dimensional feature vector\nincreases time and space complexity. Besides, it is difficult\nto effectively judge the description ability of high-dimen-\nsional face features. The high-dimensional face feature\nvector can be projected to the low-dimensional subspace.\nThe low-dimensional subspace information can complete\nface feature identification. After feature extraction, the ori-\nginal features are recombined to reduce vector dimension\nof face feature.\nAfter the previous links, we compare the existing tar-\n\ngets in face database and the faces to be identified based\non certain matching strategy, making final decision.\nMatching recognition can be represented by offline\nlearning and online matching models.\n\n3.1 SVM-based face detection\nFace detection is the premise of virtual glasses try-on\ntechnology. Recently, scholars proposed face detection\nmethods, such as neural network, SVM (support vector\nmachine), HMM (hidden Markov model), and AdaBoost.\nIn the work, the classic SVM algorithm is used for face\ndetection. SVM algorithm is a machine learning method\nbased on statistical theory. Figure 2 shows the network\nstructure of SVM [21]. SVM algorithm can be regarded\nas a three-layer feedforward neural network with a hid-\nden layer. Firstly, the input vector is mapped from\nlow-dimensional input space to the high-dimensional\nfeature space by nonlinear mapping. After that, the opti-\nmal hyperplane with the largest interval is constructed\nin the high-dimensional feature space.\nIt is denoted that the input vector of SVM x= (x1, x2,…, xn).\n\nEquation (1) shows the network output of output layer\nbased on x.\n\ny xð Þ ¼ sgn\nXN train\n\ni¼1\nyi∂\n\n�\ni K xi; x\n\n� �þ b�\n� �\n\nð1Þ\n\nwherein the inner product K(x(i), x) is a kernel function\nsatisfying the Mercer condition. Common kernel func-\ntions consist of polynomial, Gauss, and Sigmoid kernel\n\nfunctions. The Gaussian kernel function Kðx; zÞ ¼ e\njjx−zjj2\n2σ2 ,\n\nand σ is the width function.\nOptimization problem of quadratic function (Eq. (2)) is\n\nsolved to obtain the optimal parameter vector ∂�\n\n¼ ð∂�1; ∂�2;…; ∂�N train\nÞT in discriminant function.\n\nmin\n1\n2\nð\nXN train\n\ni¼1\n\nXN train\n\ni¼1\n∂i∂ jy\n\niy jK xi; x j\n� �\n\n−\nXN train\n\ni¼1\n∂i ð2Þ\n\ns:t:\nXNtrain\n\ni¼1\n\n∂iyi i ¼ 1; 2;…;N train\n\n0≤∂i≤C\n\nThe training sample xi corresponding to ∂i > 0 is used\nas a support vector. The optimization parameter b∗ can\nbe calculated by Eq. (3).\n\nb� ¼ 1\nNsv\n\nX\ni∈SV\n\nyi−\nX\n\nj∈SV\n∂�jK xi; x j\n\n� �� �\nð3Þ\n\nSVM classifier is used to determine whether the de-\ntected image is a human face. If it is not human face,\nthen the image is discarded. If it is, then the image is\nretained to output the detection result. Figure 3 shows\nthe detection process.\n\n3.2 Face recognition based on SIFT\nAfter face detection, face features are extracted for face\nrecognition, providing conditions for face alignment. In\nthe work, the robust SIFT algorithm is used for local fea-\nture extraction [22]. The algorithm finds feature points in\ndifferent scale spaces. It is irrelevant to rotation, scale, and\nbrightness changes. Besides, the algorithm has certain sta-\nbility to noise, affine transformation, and angle change.\n\n3.2.1 Basic principle of SIFT algorithm\nIn the process of feature construction by SIFT algorithm,\nit is necessary to deal with multiple details, achieving faster\noperation and higher positioning accuracy. Figure 4 shows\nflow block diagram of SIFT algorithm [21]. The generation\nprocess of local feature is described as follows [22]:\n\nFig. 2 SVM network structure\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 3 of 19\n\n\n\n① Detect extreme points\nGaussian differential functions are used for image search\n\non all scales, thus identifying potential fixed points.\n② Position key points\nThe scale on candidate position of model is confirmed.\n\nThe stability degree determines the selection of key points.\n③ Determine the direction of key points\nUsing the gradient direction histogram, each key point\n\nis assigned a direction with the highest gradient value to\ndetermine the main direction of key point.\n④ Describe the key points\nThe local gradients of image are calculated and repre-\n\nsented by a kind of symbol.\n\n3.2.2 Key point matching\n3.2.2.1 Scale space Scale space introduces a scale par-\nameter into image matching model. The continuously\nvariable scale parameter is used to obtain the scale space\nsequence. After that, the main contour of scale space is\n\ntaken as the feature vector to extract the edge features\n[23]. The larger scale leads to the more blurred image.\nTherefore, scale space can simulate the formation\nprocess of target on the retina of the human eye.\nScale space of image can be expressed as Eq. (4).\n\nL x; y; σð Þ ¼ G x; y; σð Þ � I x; yð Þ ð4Þ\nIn Eq. (4), G(x, y, σ) is the Gaussian function, I(x, y) the\n\noriginal image, and * the convolution operation.\n\n3.2.2.2 Establishing Gaussian pyramid\n\nG x; y; σð Þ ¼ 1\n2πσ2\n\ne− x−d=2ð Þ2þ y−b=2ð Þ2ð Þ=2σ2 ð5Þ\n\nIn Eq. (5), d and b are the dimensions of Gaussian\ntemplate, (x, y) is the pixel location, and σ the scale space\nfactor.\nGaussian pyramid is established according to Eq. (5),\n\nincluding Gaussian blur and down-sampling (see Fig. 5).\nIt is observed that the pyramids with different sizes con-\nstitute tower model from bottom to top. The original\nimage is used for the first layer, the new image obtained\nby down-sampling for the second layer. There are n\nlayers in each tower. The number of layers can be calcu-\nlated by Eq. (6).\n\nn ¼ log2 minf p; qð Þg−d dϵ 0; log2 minf p; qð Þg½ �\nð6Þ\n\nIn Eq. (6), p and q are the sizes of the original image and d\nis the logarithm of minimum dimension of tower top image.\n\n3.2.2.3 Gaussian difference pyramid After scale\nnormalization of maxima and minima of the Gaussian La-\nplace function σ2∇2G, we obtain the most stable image fea-\ntures using other feature extraction functions. The\nGaussian difference function is approximated to the Gauss-\nian Laplace function σ2∇2G after scale normalization. The\nrelationship is described as follows:\n\n∂G\n∂σ\n\n¼ σ2∇ 2G ð7Þ\n\nDifferential is approximately replaced by the difference:\n\nσ2∇ 2G ¼ ∂G\n∂σ\n\n≈\nG x; y; kσð Þ−G x; y; σð Þ\n\nkσ−σ\nð8Þ\n\nTherefore,\n\nG x; y; kσð Þ−G x; y; σð Þ ≈ k−1ð Þσ2∇ 2G ð9Þ\nIn Eq. (9), k − 1 is a constant.\nIn Fig. 6, the red line is the DoG operator curve; the\n\nblue line the Gauss-Laplacian curve. In extreme detection\n\nFig. 3 The detection process of SVM classifier\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 4 of 19\n\n\n\nmethod, the Laplacian operator is replaced by the DoG\noperator [24] (see Eq. (10).\n\nD x; y; σð Þ ¼ G x; y; kσð Þ−G x; y; σð Þð Þ � I x; yð Þ\n¼ L x; y; kσð Þ−L x; y; σð Þ ð10Þ\n\n3.2.2.4 Spatial extreme detection In Gaussian differ-\nence space, local extreme points constitute the key\npoints. When searching for key points, we compare the\n\nimages between two adjacent layers in the same group.\nAfter that, each pixel point is compared with all the ad-\njacent points to judge whether it is large or small (see\nFig. 6). The red intermediate detection point is com-\npared with 26 points in the surrounding, upper, and\nlower scale spaces to detect extreme points.\nIn the calculation, the Gaussian difference image is the\n\ndifference between the adjacent upper and lower images\nin each group of the Gaussian pyramid (see Fig. 7).\n\n3.2.2.5 Spatial extreme detection In Gaussian differ-\nence space, local extreme points constitute the key\npoints. When searching for key points, we compare the\nimages between two adjacent layers in the same group.\nAfter that, each pixel point is compared with all the\nadjacent points to judge whether it is large or small\n(see Fig. 8). The red intermediate detection point is com-\npared with 26 points in the surrounding, upper, and lower\nscale spaces to detect extreme points.\nIf there are N extreme points in each group, then we\n\nneed N+ 2-layer DoG pyramid and N+ 3-layer Gaussian\npyramid (see Fig. 8). Due to edge response, the extreme\npoints generated in this case are not all stable.\n\n3.2.2.6 Key point matching At first, the key point is\ncharacterized by position, scale, and direction. To main-\ntain the invariance of perspective and illumination\nchanges, the key point should be described by a set of vec-\ntors. Then, the descriptor consists of key points and other\ncontributive pixels. Besides, the independent characteristic\n\nFig. 4 SIFT algorithm flow chart\n\nFig. 5 Gaussian pyramid\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 5 of 19\n\n\n\nof descriptor is guaranteed to improve the probability of\ncorrect matching of feature points.\nThe gradient value of key point is calculated. The gra-\n\ndient value and direction are determined by Eq. (11).\n\nm x; yð Þ ¼\nffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\nN xþ 1; yð Þ−N x−1; yð Þð Þ2 þ N x; yþ 1ð Þ−N x; y−1ð Þð Þ2\n\nq\n\nθ x; yð Þ ¼ α tan2\nN x; yþ 1ð Þ−N x; y−1ð Þ\nN xþ 1; yð Þ−N x−1; yð Þ\n\n� �\nð11Þ\n\nIn Eq. (11), N represents the scale space value of key point.\nGradient histogram statistics. The gradient and direc-\n\ntion of pixels in the neighborhood are represented by\nhistogram. The direction ranges from 0 to 360°. There is a\n\nFig. 6 Comparison of Gauss-Laplacian and DoG\n\nFig. 7 Gaussian pyramid of each group\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 6 of 19\n\n\n\nsquare column for every 10°, forming 36 columns [25]\n(see Fig. 9). In feature point field, the peak represents the\ngradient direction. The histogram of maximum is the\nmain direction of key point. Meanwhile, the histogram\nwith peak value greater than 80% of main direction is se-\nlected for auxiliary direction to improve the matching\nrobustness.\nAfter successful matching of key points, the entire al-\n\ngorithm is not over yet. This is because substantial mis-\nmatched points appear in the matching process. These\nmismatched points are eliminated by Ransac method in\nSIFT matching algorithm [26].\n\n3.2.3 Face recognition experiment\nTo evaluate the algorithm, the experiment is conducted\nbased on face infrared database provided by Terravic Re-\nsearch Corporation. There are a total of 20 infrared\nimage sequences with head rotation, glasses, hats, and\nlight-illuminated pictures. Three pairs of images are se-\nlected from each face, with a total of 60 pairs. Figure 10\nshows the selected 120 images. In the work, the classic\n\nSIFT matching algorithm is used as the initial matching\nmethod to manually determine matching accuracy and\nmismatch rate of each group. In other words, the match-\ning performance is described by accuracy and error de-\ngrees. Accuracy is defined by the ratio of the number of\ncorrect matches in total number. Error degree is the ra-\ntio of the number difference (between key and matched\npoints) in the total number of key points.\nThese 120 samples are conducted with abstract match-\n\ning contrast according to the variables including head\nrotation angle, illumination transformation, glasses, and\nhat wearing. Meanwhile, other variables remain the\nsame. Figures 11, 12, 13, and 14 show the matching re-\nsults, respectively:\n\n1. Matching results when head rotation angle changes\n2. Matching results when wearing glasses\n3. Matching results when wearing a hat\n4. Matching results when light and shade change\n\nThe experimental data are shown in Table 1.The ex-\nperimental image and Table 1 show:\n① SIFT matching performance is more easily affected\n\nby wearing glasses than head rotation angle, light illu-\nmination, darkness, and wearing hat.\n② In the case of the same number of matches, the\n\nsuccess rate of SIFT matching is higher than that of the\nHarris matching method [27].\nThe overall trend of results can be well presented al-\n\nthough there are inevitable errors due to the finiteness\nof experimental samples.\n\n3.3 Face alignment\nFace alignment is the positioning of face feature points.\nAfter face image detection, the SIFT algorithm automat-\nically positions the contour points of the eyebrows, eyes,\nnose, and mouth. In the try-on process of AR glasses,\nthe eyes are positioned to estimate the head posture.\nThe pose estimation is applied to the tracking registra-\ntion subsystem of glasses, thus producing perspective\n\nFig. 8 The detection of DoG space extreme point\n\nFig. 9 The histogram of the main direction\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 7 of 19\n\n\n\ntransformation. However, the pose estimation is easily af-\nfected by the positioning of face feature points, resulting\nin estimation error. The feature points are accurately posi-\ntioned to achieve good effect of head pose estimation.\nAt present, there are many face alignment algorithms.\n\nSDM is a method of finding function approximation\nproposed by Zhu et al [28] by calculating the average\nface, and local features around each feature point are ex-\ntracted to form feature vector descriptor. The offset be-\ntween average and real face is calculated to obtain the\nstep size and motion direction for iteration. The current\nface feature points are converged to the optimal position\nby repeated iterations.\nFigure 15 shows the SDM-based face alignment process.\n\nThe face alignment process is described as follows.\n\n3.3.1 Image normalization\nThe image is normalized to achieve face alignment, thus\nimproving the efficiency of training. The face image to be\ntrained is manually labeled with feature points. After rea-\nsonable translation, rotation, and scaling transformation,\nthe image is aligned to the first sample. The sample size is\nunified to arrange the original data information with con-\nfused, reducing interference other than shape factors. Fi-\nnally, the calculated average face is placed on the sample\nas the estimated face. The average is aligned with the ori-\nginal face image in the center.\n\nIt is denoted that x∗ is the optimal solution in face fea-\nture point location, x0 the initialization feature point,\nd(x) ∈ Rn × 1 the coordinates of n feature points in the\nimage, and h the nonlinear feature extraction function\nnear each feature point. If the SIFT features of 128 di-\nmensions are extracted from each feature point, then\nh(d(x)) ∈ R128n × 1. The SIFT feature extracted at x∗ can\nbe expressed as ∅∗ = h(d(x∗)). Then, the face feature\npoint alignment is converted into the operation of solv-\ning Δx, which minimizes Eq. (12).\n\nf x0 þ Δxð Þ ¼ hðd x0 þ Δxð Þk k22 ð12Þ\nThe step size Δx is calculated based on the SDM\n\nalgorithm.\n\nxk ¼ xk þ Δxk ð13Þ\nIf Rk and bk are the paths of each iteration, then\n\nEq. (11) can converge the feature point from the initial\nvalue x0 to x∗.\n\nxkþ1 ¼ xk−1 þ Rk−1∅k−1 þ bk−1 ð14Þ\nDuring training process, {di} is the set of face images,\n\n{di} the set of manually labeled feature points, and x0 the\nfeature point of each image. Face feature point location\nis transformed into a linear regression problem. For the\nproblem, the input feature is the SIFT feature ∅i\n\n0 at x0;\n\nFig. 10 Sample sequence set\n\nFig. 11 Matching results when head rotation angle changes\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 8 of 19\n\n\n\nthe result the iteration step size Δxi� ¼ xi� þ Δxi0 from x0\nto x∗; and the objective function Eq. (15).\n\nargminR0b0\n\nX\ndi\n\nX\nxi\n\nΔxi�−R0∅i\n�−b0\n\n\t\t \t\t2\n2 ð15Þ\n\nIn this way, R0 and b0 from the training set are iterated\nto obtain Rk and Rk. The two parameters are used for\nthe test phase to achieve the alignment of test images.\n\n3.3.2 Local feature extraction of SIFT algorithm\nIn the work, the principal component analysis is used to\nreduce the dimension of image [29], the impact of\nnon-critical dimensions, and the amount of data, thus\nimproving the efficiency. After the dimension reduction,\nthe local feature points are extracted from the face\nimage. To improve the alignment accuracy of feature\npoints, the robust SIFT algorithm is applied for local fea-\nture extraction. Section 3.2.2 introduces the extraction\nprocess in detail.\n\n3.3.3 SDM algorithm alignment result\nTraining samples are selected from IBUG and LFW face\ndatabases. The former contains 132 face images. Each\nimage is labeled with 71 face feature points, which are\nsaved in pts file. The latter consists of the sets of test and\ntraining samples, wherein, the set of test sample contains\n206 face images. Each image is labeled with 71 face feature\npoints, which are saved in pts file. The set of training\n\nsample contains 803 face images. Each image is labeled\nwith 68 face feature points. Figures 16 and 17 show frontal\nand lateral face alignment results, respectively.\n\n3.4 Face pose estimation\nBased on computer vision, the pose of object refers to\nits orientation and position relative to the camera. The\npose can be changed by moving the camera or object.\nGeometric model of camera imaging determines the re-\nlationship between 3D geometric position of certain\npoint on head surface and corresponding point of image.\nThese geometric model parameters are camera parame-\nters. In most cases, these parameters are obtained by ex-\nperiments. This process is called labeling [27, 29].\nCamera labeling determines the geometric and optical\nproperties, 3D position, and direction of camera relative\nto certain world coordinate system.\nThe idea of face pose estimation is described as fol-\n\nlows. Firstly, we find the projection relationship between\n2D coordinates on face image and 3D coordinates of\ncorresponding points on 3D face model. Then, the mo-\ntion coordinates of camera are calculated to estimate\nhead posture.\nA 3D rigid object has two movements relative to the camera:\n① Translation movement\nThe camera is moved from current spatial position\n\n(X,Y, Z) to new spatial position (X′,Y′, Z′), which is called\n\nFig. 12 Matching results when wearing glasses\n\nFig. 13 Matching results when wearing a hat\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 9 of 19\n\n\n\ntranslation. Translation vector is expressed as τ = (X′ −X,\nY′ −Y, Z′ −Z).\n② Rotary movement\nIf the camera is rotated around the XYZ axis, the rota-\n\ntion has six degrees of freedom. Therefore, pose estima-\ntion of 3D object means finding six numbers (three for\ntranslation and three for rotation).\n\n3.4.1 Feature point labelling\nThe 2D coordinates of N points are determined to calcu-\nlate 3D coordinates of points, thus obtaining 3D pose of\nobject in an image.\nTo determine the 2D coordinates of N points, we se-\n\nlect the points with rigid body invariance, such as the\nnose tip, corners of eyes, and mouth. In the work, there\nare six points including the nose tip, chin, left, and right\ncorners of eyes and mouth.\nSFM (Surrey Face Model) is used as general 3D face\n\nmodel to obtain 3D coordinates corresponding to se-\nlected 2D coordinates [30]. By manual labeling, we ob-\ntain the 3D coordinates (x, y, z) of six points for pose\nestimation. These points are called world coordinates in\nsome arbitrary reference/coordinate system.\n\n3.4.2 Camera labeling\nAfter determining world coordinates, the camera is reg-\nistered to obtain the camera matrix, namely focal length\nof camera, optical center, and radial distortion parame-\nters of image. Therefore, camera labeling is required. In\nthe work, the camera is labeled by Yang and Patras [31]\nto obtain the camera matrix.\n\n3.4.3 Feature point mapping\nFigure 18 shows the world, camera, and image coordin-\nate systems. In Fig. 18, O is the center of camera, c the\noptical center of 2D image plane, P the point in world\ncoordinate system, and P′ the projection of P on image\nplane. P′ can be determined according to the projection\nof the P point.\nIt is denoted that the world coordinate of P is (U,V, W).\n\nBesides, the known parameters are the rotation matrix R\n\nFig. 14 Matching results when light and shade change\n\nTable 1 Match result analysis table\n\nVariate Number of\nmatches\n\nTotal number\nof key points\n\nMatch\nratio\n\nFalse\nmatch rate\n\nHead rotation 18 158 0.129 0.871\n\nWearing glasses 15 167 0.099 0.901\n\nWearing a hat 21 106 0.247 0.753\n\nLight and shade\nchange\n\n45 281 0.191 0.809\nFig. 15 The face alignment process based on SDM\n\nZhang EURASIP Journal on Image and Video Processing        (2018) 2018:132 Page 10 of 19\n\n\n\n(matrix 3 × 3) and translation vector τ (vector 3 × 1) from\ncamera to world coordinate. It is possible to determine\nposition O(X, Y, Z) of P in camera coordinate system.\n\nx\ny\nz\n\n2\n4\n\n3\n5 ¼ R\n\nu\nv\nw\n\n2\n4\n\n3\n5þ τ⇒\n\nx\ny\nz\n\n2\n4\n\n3\n5 ¼ Rjτ½ �\n\nu\nv\nw\n\n2\n4\n\n3\n5 ð16Þ\n\nEquation (16) is expanded as follows:\n\nx\ny\nz\n\n2\n4\n\n3\n5 ¼\n\nr00 r01 r02 τx\nr10 r11 r12 τy\nr20 r21 r22 τz\n\n2\n4\n\n3\n5\n\nu\nv\nw\nl\n\n2\n664\n\n3\n775 ð17Þ\n\nIf plenty of points are mapped to (X, Y, Z) and (U,V, W),\nthe above problem is transformed into a system of linear\nequations with unknown (τx, τy, τz) . Then, the system of\nlinear equations can be solved.\nFirstly, the six points on 3D model are manually la-\n\nbeled to derive their world coordinates (U, V, W). Equa-\ntion (18) is used to determine 2D coordinates (X, Y) of\nsix points in image coordinate system.\n\nx\ny\n1\n\n2\n4\n\n3\n5 ¼ S\n\nf x 0 0\n0 f y 0\n0 0 1\n\n2\n4\n\n3\n5 x\n\ny\nZ\n\n2\n4\n\n3\n5 ð18Þ\n\nwhere fx and fy are the focal lengths in the x and y direc-\ntions, (cx, cy) is the optical center, and S the unknown scaling\nfactor. If P in 3D is connected to O, then P′ where light in-\ntersects image plane is the same image connecting all points\nin the center of the camera produced by P along the ray.\nEquation (18) is converted to the following form:\n\nS\nX\nY\nZ\n\n2\n4\n\n3\n5 ¼\n\nr00 r01 r02 τx\nr10 r11 r12 τy\nr20 r21 r22 τz\n\n2\n4\n\n3\n5\n\nu\nv\nw\nl\n\n2\n664\n\n3\n775 ð19Þ\n\nThe image and world coordinates are known in the\nwork. Therefore, Eqs. (18) and (19) are transformed into\nthe following form:\n\nx\ny\n1\n\n2\n4\n\n3\n5 ¼ S\n\nf x 0 0\n0 f y 0\n0 0 1\n\n2\n4\n\n3\n5 r00 r01 r02 τx\n\nr10 r11 r12 τy\nr20 r21 r22 τz\n\n2\n4\n\n3\n5\n\nu\nv\nw\nl\n\n2\n664\n\n3\n775 ð20Þ\n\nIf the correct poses R and τ are known, then the 2D\nposition of 3D facial point on image can be predicted by\nprojecting the 3D point onto the image (see Eq. (20)).\nThe 2D facial feature points are known. Pose estimation\ncan be performed by calculating the distance between\nthe projected 3D point and 2D facial feature. If the pose\nis correctly estimated, the 3D points projected onto\nimage plane will almost coincide with the 2D facial fea-\ntures. Otherwise, the re-projection error can be mea-\nsured. The least square method is used to calculate the\nsum of squares of the distance between the projected 3D\nand 2D facial feature points.\n\n3.5 Tracking registration system\nTracking registration technology is the process of align-\ning computer-generated virtual objects with scenes in\nthe real world. At present, there are two tracking regis-\ntration techniques. The first superimposes certain point\nof face feature with a point of virtual glasses based on\nthe face feature point tracking method [32]. The second\nis based on the geometric transformation relation track-\ning method. Face geometry and virtual glasses model are\nconducted with affine transformation. Virtual glasses\nmodel moves with the movement of human head, mak-\ning corresponding perspective changes and realizing 3D\ntry-on effect [33]. For the first technique, the virtual\nglasses cannot be changed with the movement of user\nhead, causing poor user experience. The second tech-\nnique has good tacking effect. The virtual glasses will be\ndistorted with overlarge head corner. Combined with the\ntwo methods, the glasses model is conducted with per-\nspective transformation using six degrees of freedom ob-\ntained by pose estimation in Section 3.3. After face\nsuperposition, accurate tracking is realized through bet-\nter stereoscopic changes.\n\nFig. 16 The picture of front face alignment\n\nZhang ",
+        "metadata_storage_content_type": "application/pdf",
+        "metadata_storage_size": 2713106,
+        "metadata_storage_last_modified": "2023-06-09T23:30:14Z",
+        "metadata_storage_content_md5": "nL03HtE+XNo2t1VvEQAwSA==",
+        "metadata_storage_name": "s13640-018-0373-8.pdf",
+        "metadata_storage_path": "aHR0cHM6Ly90cmFpbmluZ3N0b3JhZ2UxOS5ibG9iLmNvcmUud2luZG93cy5uZXQvcGFwZXJzL3MxMzY0MC0wMTgtMDM3My04LnBkZg2",
+        "metadata_storage_file_extension": ".pdf",
+        "metadata_content_type": "application/pdf",
+        "metadata_language": "en",
+        "metadata_author": "Boping Zhang",
+        "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+        "metadata_creation_date": "2018-11-23T11:51:48Z",
+        "organizations": [
+          "iOS",
+          "SVM",
+          "School of Information Engineer",
+          "Xuchang University",
+          "EURASIP Journal",
+          "Creative Commons",
+          "EURASIP",
+          "Camirror",
+          "Smart Look",
+          "Ipoint",
+          "eling",
+          "HMM",
+          "Markov",
+          "AdaBoost",
+          "XNtrain",
+          "Nsv",
+          "Terravic Re",
+          "search Corporation",
+          "SIFT",
+          "IBUG",
+          "LFW",
+          "Rotary"
+        ],
+        "profile": "[]",
+        "doi": "10.1186/s13640-018-0373-8",
+        "publicationDate": "2018-11-27",
+        "publicationName": "EURASIP Journal on Image and Video Processing",
+        "publisher": "Springer"
+      }
+    ]
+}
+
+
+4. query = search=*&$filter=rating_average gt 4.9&$select=rating_average,profile,instructor
+
+result= 
+{
+    "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index-1')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 4.91,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 4.91,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 4.91,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Mike Montoya",
+        "rating_average": 5,
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 800,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 200,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 700,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 200,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 550,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 250,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 400,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 600,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 800,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 600,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      },
+      {
+        "@search.score": 1,
+        "instructor": "Eileen Diaz",
+        "rating_average": 200,
+        "profile": "[{\"name\":\"Eileen Diaz\",\"description\":\"Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.\",\"matches\":[{\"text\":\"eileen diaz\",\"offset\":0,\"length\":11,\"matchDistance\":0.0}]}]"
+      }
+    ]
+  }
+
+
+
+5. query: search='azure'&$filter=duration eq 18
+
+result:
+
+{
+    "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index-1')/$metadata#docs(*)",
+    "value": [
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "6d320f65-7c27-4107-9014-8db29dece99a",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4065904Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.406Z",
+        "Key": "bXMtbGVhcm42ZDMyMGY2NS03YzI3LTQxMDctOTAxNC04ZGIyOWRlY2U5OWE1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "security-engineer",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "74131c08-c082-4eb4-af8e-edc6f8972609",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4065904Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.406Z",
+        "Key": "bXMtbGVhcm43NDEzMWMwOC1jMDgyLTRlYjQtYWY4ZS1lZGM2Zjg5NzI2MDk1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "functional-consultant",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "84b95a59-cf9a-4cfd-ac8b-cf31b19db165",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4055912Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.405Z",
+        "Key": "bXMtbGVhcm44NGI5NWE1OS1jZjlhLTRjZmQtYWM4Yi1jZjMxYjE5ZGIxNjU1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "business-analyst",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "871fd15d-0363-4b1c-a99d-2e9a14d3f652",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm44NzFmZDE1ZC0wMzYzLTRiMWMtYTk5ZC0yZTlhMTRkM2Y2NTI1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "solution-architect",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "8cfbe810-2ffc-4858-8a1d-3b3217ae1caa",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4065904Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.406Z",
+        "Key": "bXMtbGVhcm44Y2ZiZTgxMC0yZmZjLTQ4NTgtOGExZC0zYjMyMTdhZTFjYWE1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "technology-manager",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "90f26b90-378d-49f3-b22d-f681e38e76e7",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5279157Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.527Z",
+        "Key": "bXMtbGVhcm45MGYyNmI5MC0zNzhkLTQ5ZjMtYjIyZC1mNjgxZTM4ZTc2ZTc1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "cb6f46e7-4f61-4e0b-9a7a-05f6768a4c18",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4065904Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.406Z",
+        "Key": "bXMtbGVhcm5jYjZmNDZlNy00ZjYxLTRlMGItOWE3YS0wNWY2NzY4YTRjMTg1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "solution-architect",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "58a1c388-4a5e-4c44-a431-eb8f423f166b",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4055912Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.405Z",
+        "Key": "bXMtbGVhcm41OGExYzM4OC00YTVlLTRjNDQtYTQzMS1lYjhmNDIzZjE2NmI1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "business-owner",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "33a1018b-35be-4c82-8632-2889f3470bc1",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4065904Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.406Z",
+        "Key": "bXMtbGVhcm4zM2ExMDE4Yi0zNWJlLTRjODItODYzMi0yODg5ZjM0NzBiYzE1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "devops-engineer",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "1c1c7d2d-2827-41dd-bca4-5d9e3cd82223",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4065904Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.406Z",
+        "Key": "bXMtbGVhcm4xYzFjN2QyZC0yODI3LTQxZGQtYmNhNC01ZDllM2NkODIyMjM1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "maker",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "1d156505-f41c-481e-a328-6eeee358421d",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4055912Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.405Z",
+        "Key": "bXMtbGVhcm4xZDE1NjUwNS1mNDFjLTQ4MWUtYTMyOC02ZWVlZTM1ODQyMWQ1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "business-user",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "01731c10-20bb-41e7-ba21-8528669dcdc3",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5279157Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.527Z",
+        "Key": "bXMtbGVhcm4wMTczMWMxMC0yMGJiLTQxZTctYmEyMS04NTI4NjY5ZGNkYzM1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "ai-engineer",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "0d7a0398-0455-4759-8555-3ae257835533",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4055912Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.405Z",
+        "Key": "bXMtbGVhcm4wZDdhMDM5OC0wNDU1LTQ3NTktODU1NS0zYWUyNTc4MzU1MzM1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "administrator",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "dce8e311-b379-4016-9708-8a446004825c",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm5kY2U4ZTMxMS1iMzc5LTQwMTYtOTcwOC04YTQ0NjAwNDgyNWM1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.5578526,
+        "PartitionKey": "ms-learn",
+        "RowKey": "dd5bedf8-9826-45c2-827d-ed1e2538894d",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A39.4055912Z'\"",
+        "Timestamp": "2023-06-10T13:31:39.405Z",
+        "Key": "bXMtbGVhcm5kZDViZWRmOC05ODI2LTQ1YzItODI3ZC1lZDFlMjUzODg5NGQ1",
+        "description": "Explore two capabilities in the DevOps taxonomy, Continuous Delivery and Continuous Quality.",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "beginner",
+        "product": "azure",
+        "rating_average": 4.73,
+        "rating_count": 1614,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Explain DevOps Continuous Delivery and Continuous Quality",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/explain-devops-continous-delivery-quality/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "two capabilities",
+          "DevOps taxonomy",
+          "Continuous Delivery",
+          "Continuous Quality"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "c975e981-df18-44b6-9b16-e8ed3ed7de98",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5279157Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.527Z",
+        "Key": "bXMtbGVhcm5jOTc1ZTk4MS1kZjE4LTQ0YjYtOWIxNi1lOGVkM2VkN2RlOTg1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "ai-engineer",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "cdb546cc-adb3-4c45-8f73-2c98455e3379",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm5jZGI1NDZjYy1hZGIzLTRjNDUtOGY3My0yYzk4NDU1ZTMzNzk1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-language-understanding",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "1f252bc6-f722-4add-a681-09b888e4b71c",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm4xZjI1MmJjNi1mNzIyLTRhZGQtYTY4MS0wOWI4ODhlNGI3MWM1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-language-understanding",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "a72bbe5a-cb74-4cb7-a477-e8a3fc06c608",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5279157Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.527Z",
+        "Key": "bXMtbGVhcm5hNzJiYmU1YS1jYjc0LTRjYjctYTQ3Ny1lOGEzZmMwNmM2MDg1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "data-scientist",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "ad5475aa-63b0-4b1c-ba9c-964cc3ad08fa",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm5hZDU0NzVhYS02M2IwLTRiMWMtYmE5Yy05NjRjYzNhZDA4ZmE1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "solution-architect",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "b5a079db-8f56-4414-8762-92ea7691d6bf",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5279157Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.527Z",
+        "Key": "bXMtbGVhcm5iNWEwNzlkYi04ZjU2LTQ0MTQtODc2Mi05MmVhNzY5MWQ2YmY1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-language-understanding",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "ai-engineer",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "ba37fb77-137a-4538-a2fc-e41480b50f38",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm5iYTM3ZmI3Ny0xMzdhLTQ1MzgtYTJmYy1lNDE0ODBiNTBmMzg1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-language-understanding",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "solution-architect",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      },
+      {
+        "@search.score": 0.29717028,
+        "PartitionKey": "ms-learn",
+        "RowKey": "ba89b5c5-fefd-459e-843e-0987a3dfbbd7",
+        "ETag": "W/\"datetime'2023-06-10T13%3A31%3A28.5289148Z'\"",
+        "Timestamp": "2023-06-10T13:31:28.528Z",
+        "Key": "bXMtbGVhcm5iYTg5YjVjNS1mZWZkLTQ1OWUtODQzZS0wOTg3YTNkZmJiZDc1",
+        "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "duration": 18,
+        "instructor": "Mike Montoya",
+        "level": "advanced",
+        "product": "azure-cognitive-services",
+        "rating_average": 4.75,
+        "rating_count": 137,
+        "role": "developer",
+        "source": "MS Learn",
+        "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+        "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+        "organizations": [],
+        "keyphrases": [
+          "Language Understanding Intelligent Service",
+          "LUIS) Apps",
+          "containers"
+        ],
+        "profile": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]",
+        "doi": null
+      }
+    ]
+  }
+

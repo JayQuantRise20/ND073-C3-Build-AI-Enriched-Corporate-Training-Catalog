@@ -1,0 +1,37 @@
+1.query :
+
+search=Gerald Dominguez &$select=title,instructor
+
+json-result=
+
+{
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 10.74241,
+      "instructor": "Gerald Dominguez",
+      "title": "O365"
+    },
+    {
+      "@search.score": 10.74241,
+      "instructor": "Gerald Dominguez",
+      "title": "Remote work"
+    }
+  ]
+}
+
+2.query:
+
+search=Alina Köchling & $select=metadata_title,metadata_author&$top=5
+
+json-result = 
+{
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 11.012583,
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development"
+    }
+  ]
+}

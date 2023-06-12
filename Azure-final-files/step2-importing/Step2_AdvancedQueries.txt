@@ -1,0 +1,233 @@
+1. query = 
+
+search=*&$filter=rating_average gt 4.8 & $top=1
+
+json-result = 
+{
+    {
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "RowKey": "30e3c6e5-9415-4d85-8229-c2133203c535",
+      "ETag": "W/\"datetime'2023-06-10T13%3A31%3A55.7021185Z'\"",
+      "Timestamp": "2023-06-10T13:31:55.702Z",
+      "Key": "Y29tcGFueS1tb29kbGUzMGUzYzZlNS05NDE1LTRkODUtODIyOS1jMjEzMzIwM2M1MzU1",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "dynamics-business-central",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+}
+
+2. query:
+
+search=* &facet=duration&$select=title,duration&$sort&$top=10
+json-result = 
+"@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "duration": [
+      {
+        "count": 57,
+        "value": 54
+      },
+      {
+        "count": 53,
+        "value": 46
+      },
+      {
+        "count": 50,
+        "value": 27
+      },
+      {
+        "count": 45,
+        "value": 38
+      },
+      {
+        "count": 39,
+        "value": 44
+      },
+      {
+        "count": 33,
+        "value": 25
+      },
+      {
+        "count": 32,
+        "value": 22
+      },
+      {
+        "count": 32,
+        "value": 49
+      },
+      {
+        "count": 28,
+        "value": 56
+      },
+      {
+        "count": 26,
+        "value": 62
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "duration": 2,
+      "title": "O365"
+    },
+    {
+      "@search.score": 1,
+      "duration": 1,
+      "title": "Onboarding - Technology Policies"
+    },
+    {
+      "@search.score": 1,
+      "duration": 2,
+      "title": "Maps"
+    },
+    {
+      "@search.score": 1,
+      "duration": 5,
+      "title": "DevOps for Ops"
+    },
+    {
+      "@search.score": 1,
+      "duration": 1,
+      "title": "Onboarding - Time Tracking"
+    },
+    {
+      "@search.score": 1,
+      "duration": 1,
+      "title": "Ethics in AI"
+    },
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "title": "Security for database admins"
+    },
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "title": "Git Workflow"
+    },
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "title": "Encryption and security"
+    },
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "title": "DevOps for Dev"
+    }
+  ]
+}
+
+
+3.query:  
+
+search=CI/CD &$filter=level eq 'intermediate' &$select=url,level,description&$top=5
+
+json: 
+{
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 25.880133,
+      "description": "Implement CI/CD with Azure DevOps",
+      "level": "intermediate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops/?WT.mc_id=api_CatalogApi"
+    },
+    {
+      "@search.score": 11.559658,
+      "description": "Do you want to know how to configure and set up an automated build process? In this module, you'll learn how to configure CI/CD with Business Central applications, how to create pipelines using YAML files, and set up a release process.",
+      "level": "intermediate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-azure-pipelines/?WT.mc_id=api_CatalogApi"
+    },
+    {
+      "@search.score": 11.559658,
+      "description": "Do you want to know how to configure and set up an automated build process? In this module, you'll learn how to configure CI/CD with Business Central applications, how to create pipelines using YAML files, and set up a release process.",
+      "level": "intermediate",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-azure-pipelines/?WT.mc_id=api_CatalogApi"
+    },
+    {
+      "@search.score": 4.9978037,
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "level": "intermediate",
+      "url": "https://www.example.com/course5"
+    },
+    {
+      "@search.score": 4.9978037,
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "level": "intermediate",
+      "url": "https://www.example.com/course4"
+    }
+  ]
+}
+
+
+4. query:
+
+search='Neuromarketing'&$select=metadata_title
+
+json:
+
+{
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 13.354024,
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review"
+    }
+  ]
+}
+
+
+5. query:
+search=Company Moodle&$filter=(instructor eq 'Claudia Blackman' and duration eq 5)
+
+json:
+{
+  "@odata.context": "https://cataloguesearch.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 20.696663,
+      "PartitionKey": "company-moodle",
+      "RowKey": "578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "ETag": "W/\"datetime'2023-06-10T13%3A31%3A55.7021185Z'\"",
+      "Timestamp": "2023-06-10T13:31:55.702Z",
+      "Key": "Y29tcGFueS1tb29kbGU1NzhhMzMxOS1hYTdjLTRkMmYtYjZhNC0zOWU5NjM4YjBhODU1",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+

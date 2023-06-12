@@ -1,0 +1,36 @@
+{
+    "@odata.context": "https://cataloguesearch.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.etag": "\"0x8DB69CBE95A949E\"",
+    "name": "azuretable-skillset",
+    "description": "Skillset created from the portal. skillsetName: azuretable-skillset; contentField: PartitionKey; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+    "skills": [
+      {
+        "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+        "name": "#1",
+        "description": null,
+        "context": "/document/PartitionKey",
+        "defaultLanguageCode": "en",
+        "maxKeyPhraseCount": null,
+        "modelVersion": null,
+        "inputs": [
+          {
+            "name": "text",
+            "source": "/document/PartitionKey"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "keyPhrases",
+            "targetName": "keyphrases"
+          }
+        ]
+      }
+    ],
+    "cognitiveServices": {
+      "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+      "description": "/subscriptions/8e65e947-d490-484f-aed8-7656f7c732b5/resourceGroups/brunel-resource/providers/Microsoft.CognitiveServices/accounts/training-catalogue-1",
+      "key": "b40318e4adb7463d839a40b24f3b4555"
+    },
+    "knowledgeStore": null,
+    "encryptionKey": null
+  }

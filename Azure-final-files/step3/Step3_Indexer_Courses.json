@@ -1,0 +1,48 @@
+{
+    "@odata.context": "https://cataloguesearch.search.windows.net/$metadata#indexers/$entity",
+    "@odata.etag": "\"0x8DB6B535DEE49B7\"",
+    "name": "azuretable-indexer-1",
+    "description": "",
+    "dataSourceName": "new-courses-index",
+    "skillsetName": "azuretable-skillset-1",
+    "targetIndexName": "azuretable-index-1",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": 0,
+      "maxFailedItemsPerBatch": 0,
+      "base64EncodeKeys": null,
+      "configuration": {}
+    },
+    "fieldMappings": [
+      {
+        "sourceFieldName": "Key",
+        "targetFieldName": "Key",
+        "mappingFunction": {
+          "name": "base64Encode",
+          "parameters": null
+        }
+      }
+    ],
+    "outputFieldMappings": [
+      {
+        "sourceFieldName": "/document/description/organizations",
+        "targetFieldName": "organizations"
+      },
+      {
+        "sourceFieldName": "/document/description/keyphrases",
+        "targetFieldName": "keyphrases"
+      },
+      {
+        "sourceFieldName": "/document/instructor/profile",
+        "targetFieldName": "profile"
+      },
+      {
+        "sourceFieldName": "/document/title/doi",
+        "targetFieldName": "doi"
+      }
+    ],
+    "cache": null,
+    "encryptionKey": null
+  }
